@@ -185,6 +185,8 @@ border: 2px solid white;
 .footer-info
 {
   border: 1px solid grey;
-  padding: 55px;
+  padding: 22px;
   margin: 2px;
+  flex-wrap: wrap;
 }
+
