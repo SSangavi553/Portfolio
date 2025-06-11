@@ -1,0 +1,190 @@
+
+*
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* example.css */
+.page-container {
+    transform: translateX(-90%);
+      animation: slideIn 1s forwards;
+
+}
+
+  @keyframes slideIn {
+      to {
+        transform: translateX(0); /* ullae vandhu stop aagum */
+      }
+    }
+
+.photo-mine
+{
+    width: 200px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.intro
+{
+    background-image: linear-gradient(to bottom,#010e1d, #18054d);
+    height: 100vh;
+    color: white;
+    padding: 44px;
+   
+}
+.work
+{
+    color: white;
+    background-image: linear-gradient(to right,#7ad0e1 ,#dbeef2);
+    padding: 4px;
+    border-radius: 10px;
+}
+.button
+{
+    background-color: antiquewhite;
+    display: inline;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+}
+button:hover{
+
+background-color: #7ad0e1;
+width: 170px;
+}
+.cv
+{
+    color: #18054d;
+    font-size: 18px;
+    text-decoration: none;
+}
+header p{
+    font-size: 24px;
+    
+}
+.home-intro
+{
+    width: 50%;
+    line-height: 55px;
+}
+#about {
+  background-color: #121212; /* or any dark color */
+}
+
+#about h1, #about h3 {
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.short-container
+{
+    background-color: aliceblue;
+    opacity: 0.3;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.skills
+{
+   background-color: #121212;
+   border: 3px solid white;
+}
+
+.skills-frontend
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.logo
+{
+  width: 100px;
+}
+
+.icons-link
+{
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+}
+
+i{
+  font-size: 20px;
+}
+
+
+.link-icon
+{
+  visibility: hidden;
+border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  color: black;
+  margin-right: 22px;
+  text-align: center;
+}
+
+
+
+.cards-hover:hover .link-icon {
+  visibility: visible;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  margin-right: 22px;
+  text-align: center;
+}
+
+.card-text
+{
+  overflow: auto;
+  height: 200px;
+ 
+}
+
+.card-text::-webkit-scrollbar {
+  display: none;
+}
+
+.project-img
+{
+
+  height: 200px;
+}
+
+.card{
+    border: 1px solid lightcyan;
+}
+
+.card:hover
+{
+  transition: transform 0.3s ease;
+}
+
+/* animation */
+
+.button_anchor
+{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-info
+{
+  border: 1px solid grey;
+  padding: 55px;
+  margin: 2px;
+}
