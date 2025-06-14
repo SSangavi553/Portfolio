@@ -7,18 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* example.css */
-.page-container {
-    transform: translateX(-90%);
-      animation: slideIn 1s forwards;
 
-}
-
-  @keyframes slideIn {
-      to {
-        transform: translateX(0); /* ullae vandhu stop aagum */
-      }
-    }
 
 .photo-mine
 {
@@ -71,7 +60,7 @@ header p{
     line-height: 55px;
 }
 #about {
-  background-color: #121212; /* or any dark color */
+  background-color: #121212; 
 }
 
 #about h1, #about h3 {
@@ -147,6 +136,23 @@ border: 2px solid white;
   margin-right: 22px;
   text-align: center;
 }
+@media (max-width:932px)
+{
+.project-section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+.project-section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
 .card-text
 {
@@ -174,7 +180,7 @@ border: 2px solid white;
   transition: transform 0.3s ease;
 }
 
-/* animation */
+
 
 .button_anchor
 {
